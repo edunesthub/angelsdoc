@@ -8,7 +8,7 @@
     "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^13.5.0",
     "pdf-lib": "^1.17.1",
-    "pdfjs-dist": "^5.4.449",
+    "pdfjs-dist": "^4.4.168",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-pdf": "^10.2.0",
@@ -17,11 +17,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "craco start",
+  "build": "craco build",
+  "test": "craco test"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0"
   }
 }
